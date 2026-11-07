@@ -1,0 +1,143 @@
+{
+  "trigger": "pcfer, пкфер, писифер, пс фер, pc fer. пцфер, пикфер, пк фер, писифер, пока фер, пцфер,  пкфер, pcfer, вк фер, пкфр, пк фр, пк фермер, пцр, пк фер, пк, кафе, я, koffer, vk, кафир",
+  "trigger_aliases": "пкфер, пи си фер, писифер, пс фер, pc fer, пцфер, пикфер, пк фер, вк фер, пкфр,пк фр, пк фермер, пцр, пк фер, пк, кафе, я, koffer, vk, кафир",
+  "provider": "ollama",
+  "models": {
+    "ollama": "qwen2.5:3b",
+    "g4f": "gpt-4o-mini"
+  },
+  "vision_models": {
+    "ollama": "qwen2.5vl",
+    "g4f": "gpt-4o"
+  },
+  "tts_engine": "pyttsx3",
+  "voice_id": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_RU-RU_IRINA_11.0",
+  "speech_rate": 140,
+  "language": "ru-RU",
+  "actions": {
+    "screenshot": true,
+    "screen_record": true,
+    "open_website": true,
+    "open_app": true,
+    "open_path": true,
+    "list_drives": true,
+    "keyboard": true,
+    "mouse": true,
+    "look_at_screen": true,
+    "click_on_screen": true
+  },
+  "output_dir": "C:\\Users\\SiriGame\\PCFER",
+  "extra_dirs": [],
+  "avatar_enabled": true,
+  "avatar_scale": 4,
+  "avatar_corner": "bottom-right",
+  "avatar_alpha": 1.0,
+  "avatar_topmost": true,
+  "bubble_enabled": true,
+  "bubble_seconds": 10.0,
+  "idle_fillers_enabled": true,
+  "idle_delay_s": 8.0,
+  "anim_events": {
+    "startup": "wave",
+    "listen": "listen",
+    "think": "think",
+    "talk": "idle",
+    "success": "success",
+    "magic": "magic",
+    "error": "error"
+  },
+  "assistant_name": "PCFER",
+  "persona_extra": "",
+  "history_len": 12,
+  "speech_volume": 1.0,
+  "speak_replies": true,
+  "quiet_enabled": true,
+  "quiet_start": 0,
+  "quiet_end": 7,
+  "mic_factor": 2.5,
+  "phrase_pause": 0.9,
+  "follow_up_timeout": 7.0,
+  "autostart_listen": true,
+  "ui_scale": 1.1,
+  "appearance": "dark",
+  "sprite_source": "file",
+  "sprite_path": "D:/PCFER/ze666_sprites.png",
+  "sprite_cell_w": 70,
+  "sprite_cell_h": 74,
+  "avatar_states": {
+    "idle": {
+      "rows": [
+        1,
+        2
+      ],
+      "fps": 3.0,
+      "loop": true
+    },
+    "listen": {
+      "rows": [
+        3,
+        4
+      ],
+      "fps": 4.0,
+      "loop": true
+    },
+    "think": {
+      "rows": [
+        7
+      ],
+      "fps": 6.0,
+      "loop": true
+    },
+    "talk": {
+      "rows": [
+        5
+      ],
+      "fps": 8.0,
+      "loop": true
+    },
+    "wave": {
+      "rows": [
+        15
+      ],
+      "fps": 6.0,
+      "loop": false
+    },
+    "look": {
+      "rows": [
+        10
+      ],
+      "fps": 7.0,
+      "loop": false
+    },
+    "peek": {
+      "rows": [
+        25
+      ],
+      "fps": 3.0,
+      "loop": false
+    },
+    "success": {
+      "rows": [
+        22,
+        23
+      ],
+      "fps": 8.0,
+      "loop": false
+    },
+    "magic": {
+      "rows": [
+        31
+      ],
+      "fps": 10.0,
+      "loop": false
+    },
+    "error": {
+      "rows": [
+        34
+      ],
+      "fps": 6.0,
+      "loop": false
+    }
+  },
+  "custom_commands": []
+}
